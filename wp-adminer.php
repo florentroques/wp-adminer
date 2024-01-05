@@ -47,7 +47,7 @@ class WPAdminer
 		$base = plugin_basename(__FILE__);
 		if ($file == $base) {
 			$new_links = [
-				'Adminer Version: 4.6.3',
+				'Adminer Version: 4.8.1',
 			];
 			array_splice($links, 1, 0, $new_links );
 		}
@@ -62,7 +62,7 @@ class WPAdminer
 		$adminer_url = plugin_dir_url( __FILE__ ) . 'adminer.php';
 		$params = [
 			'driver' => 'server',
-			'server' => DB_HOST,
+			'server' => DB_HOST . ':3306',
 			'username' => DB_USER,
 			'password' => DB_PASSWORD,
 			'db' => DB_NAME,
