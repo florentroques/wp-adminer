@@ -15,3 +15,7 @@ Embeds latest version of [Adminer](https://www.adminer.org) into WordPress. Admi
 ## Warning
 
 **Having Adminer accessible on the site is high security risk, even if this plugin is DISABLED. Install this plugin just for the short time necessary and always delete it after use. Never keep it on the site if not used. The author is not responsible for any harm that using this plugin or Adminer can cause, do it at your own risk.**
+
+## Notes
+
+Does not work on pantheon platform
